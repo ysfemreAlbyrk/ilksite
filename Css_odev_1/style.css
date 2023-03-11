@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+/* ÜST BÖLÜM ELEMANLARI */
+
+.ust_bolum{
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    background-color: aqua;
+}
+
+.yonetim_elemanlari li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.yonetim_elemanlari li a{
+    color: black;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.yonetim_elemanlari li a:hover{
+    transition: all ease 0.2s;
+    font-size: 27px;
+    color: rgb(23, 62, 145);
+}
+
+/* ORTA BÖLÜM ELEMANLARI */
+
+.sayfa_bilgi{
+    position: relative;
+    width: 600px;
+    top: 50%;
+    left: 55%;
+    margin-top: 0;
+    margin-left: -360px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: wheat;
+}
+
+/* .ok{
+    position: relative;
+    top: 60px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+}*/
+
+
+.orta_bolum{
+    position: relative;
+    top: 150px;
+    left: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.orta_alan{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    position: relative;
+    left: 130px;
+}
+
+.CAR{
+    width: 500px;
+    height: 290px;
+}
+
+.araba_bilgilendirme{
+    border-style: solid;
+    padding: 20px;
+    margin-left: -70px;
+}
+
+/* SOSYAL İLETİŞİM ALANI */
+
+.iletisim_infosu{
+    background-color: grey;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 400px;
+    left: 230px;
+    width: 1000px;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iletisim_infosu .baslikkk{
+    top: -180px;
+    left: 400px;
+    font-size: 30px;
+}
+
+.iletisim_infosu a h2{
+    color: black;
+}
+
+.iletisim_infosu a h2:hover{
+    color: rgb(23, 62, 145),;
+}
