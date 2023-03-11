@@ -1,0 +1,111 @@
+#birP,
+#ikiP,
+#uc
+ {
+    display: inline;
+    font-weight: bold;
+    color: rgb(39, 37, 37);
+}
+
+
+
+.kutuGoogle,
+#resim {
+    text-align: center;
+
+}
+
+a {
+    display: block;
+}
+html{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+body{
+    width: 90%;
+}
+
+
+.kutu1 {
+    background-color: aqua;
+    display: inline;
+    height: 110px;
+    position: relative;
+}
+
+
+
+.kutu2 {
+    background-color: rgb(101, 195, 195);
+    display: inline-flexbox;
+    float: left;
+    height: 110px;
+    position: relative;
+}
+
+
+
+.kutu3 {
+    background-color: rgb(62, 165, 165);
+    display: inline-flexbox;
+    float: left;
+    height: 110px;
+    position: relative;
+
+}
+
+
+
+.kutu1,
+.kutu2,
+.kutu3 {
+    display: inline-table;
+}
+
+.kutuGoogle {
+    background-color: rgb(189, 185, 185);
+    height: 70px;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 35px;
+
+}
+
+#resim {
+    position: relative;
+    top: 35px;
+}
+
+
+.as2 {
+    display: inline-block;
+    position: relative;
+    top: 151px;
+    display: flex;
+    justify-content: space-between;
+}
+.as2 div {
+    width: 470px !important;
+    padding-top: 20px;
+}
+
+.as {
+    display: inline;
+    position: relative;
+    top: 130px;
+}
+
+footer {
+    margin-top: 180px;
+    text-align: center;
+    font-size: small;
+}
+
+#b {
+    display: inline;
+   
+}
